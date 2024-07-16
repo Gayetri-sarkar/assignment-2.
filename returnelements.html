@@ -1,0 +1,32 @@
+<!--1. Write a function that takes an array of numbers and returns the first and last elements of the array.-->
+
+returnelements.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <script type="text/javascript">
+       var arraylist=[12,3,6,9]
+       function flarray()
+       {
+          arraylist.innerHTML="the total elements of an array = "+arraylist;
+          var firstarr=arraylist[0]
+          firstarray.innerHTML="the first element= "+firstarr;
+          var lastarr=arraylist[arraylist.length-1];
+          lastarray.innerHTML="the last element= "+lastarr;
+       }
+
+   </script>
+</head>
+<body>
+    <center>
+        <h1>return the first and last elements</h1>
+        <hr/>
+        <button onclick="flarray()">click</button>
+        <hr/>
+        <h1 id="arraylist"></h1>
+        <h2 id="firstarray"></h2>
+        <h2 id="lastarray"></h2>
+
+    </center>
+</body>
+</html>
